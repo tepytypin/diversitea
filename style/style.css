@@ -1,0 +1,96 @@
+header {
+    background-color: var(--dark-purple);
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+}
+
+p {
+    font-weight: 600;
+}
+.header {
+    background-color: var(--dark-purple);
+    height: 100px;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.title {
+    margin-top: 5rem;
+    padding-left: 5rem;
+    color: #2A2550;
+    text-decoration: overline;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.logo {
+    width: 30%;
+    display: flex;
+    align-items: center;
+}
+
+.logo h1 {
+    color: rgb(255, 175, 3);
+    font-size: 70px;
+}
+
+.logo img {
+    height: 100px;
+    padding-left: 3rem;
+}
+
+.header {
+    display: flex;
+}
+
+.header a {
+    color: rgb(214, 214, 214);
+    transition: all 500ms;
+    text-decoration: none;
+    font-size: x-large;
+    font-weight: 800;
+}
+
+.header a:hover {
+    color: white;
+    letter-spacing: 2px;
+}
+
+:root {
+    --dark: #251D3A;
+    --dark-purple: #2A2550;
+    --dark-orange: #E04D01;
+    --light-orange: #FF7700;
+}
+
+.products  {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.product-card-info a {
+    text-decoration: none;
+}
+
+.product-card-info a:hover {
+    text-decoration: underline;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh
+}
+
+header {
+    position: sticky;
+    top: 0;
+}
